@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+body{
+    background-color: aqua;
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: lightpink 5px 5px 10px ;
+
+}
+
+h1 {
+color: lightcoral;
+text-align: center;
+font-weight:bolder;
+
+}
+
+h2{
+text-align: right;
+font-style: oblique;
+
+}
+
+p{
+    text-decoration: underline;
+}
