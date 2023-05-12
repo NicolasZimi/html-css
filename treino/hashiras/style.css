@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --fonte1:'Indie Flower', cursive;
+    --fonte2:'Shadows Into Light', cursive;
+    --fonte3:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+html, body{
+    min-height: 100vh;
+    
+}
+
+ header{
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;   
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+aside{
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.1em;
+    background-repeat: no-repeat;
+    font-family: var(--fonte1);
+    font-size: 1.1em;
+    background-attachment: fixed;
+}
+section > h2{
+    font-family: var(--fonte2);
+}
+
+section#inseto > p {
+    background-color: rgba(128, 0, 128, 0.411);
+    
+    width: 500px;
+}
+
+section#som > p{
+    background-color: rgba(233, 199, 8, 0.719);
+    width: 500px;
+
+}
+
+section#fogo > p{
+    background-color: rgba(243, 68, 4, 0.521);
+    width: 500px;
+}
+
+section#amor >p{
+    background-color: rgba(255, 192, 203, 0.712);
+    width: 500px;
+}
+
+section#agua > p{
+    background-color:rgba(0, 255, 255, 0.719);
+    width: 500px;
+}
+
+section#nevoa > p{
+    background-color: rgba(211, 211, 211, 0.767);
+    width: 500px;
+}
+
+section#serpente > p{
+    background-color:rgba(250, 235, 215, 0.801);
+    width: 500px;
+}
+
+section#vento > p{
+    background-color: rgba(2, 167, 2, 0.692);
+    width: 500px;
+}
+
+section#pedra > p {
+    background-color: rgba(128, 128, 128, 0.795);
+    width: 500px;
+}
+
+section#inseto{
+    background-image: url('./imagens/shinobu-kocho-demon-slayer.jpg');
+    background-position: center top ;
+    background-size: cover;
+    
+}
+
+section#som{
+    background-image: url('./imagens/Tengen.jpg.webp');
+    background-size: cover;
+    background-position: center center;
+}
+
+section#fogo{
+    background-image: url('./imagens/rengoku-1.jpg');
+    background-size: cover;
+    
+}
+
+section#amor{
+    background-image: url('./imagens/Hashira-Mitsuri-Kanroji-2023.webp');
+    background-size: cover;
+    background-position: center right;
+}
+
+section#agua{
+    background-image: url('./imagens/Tomioka.jpg');
+    background-size: cover;
+}
+
+section#nevoa{  
+    background-image: url('./imagens/Muichiro-Tokito-1.webp');
+    background-size: cover;
+}
+
+section#serpente{
+    background-image:url('./imagens/Obanai-Iguro-Todas-as-formas-da-Respiracao-da-Serpente.webp');
+    background-size: cover;
+}   
+
+section#vento{
+    background-image: url('./imagens/Vento-de-Demon-Slayer-Hashira-esta-orgulhoso-de-todas-as.jpeg');
+    background-size: cover;
+}
+
+section#pedra{
+    background-image: url('./imagens/Gyomei.jpg');
+    background-size: cover;
+    background-position: top top;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:  20px;
+}
+
+footer  a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
