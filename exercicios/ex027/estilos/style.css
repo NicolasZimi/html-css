@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.flex-pai{
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:flex-start;
+}
+
+.flex-pai > div {
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
