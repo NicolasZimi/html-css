@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+*{
+    box-sizing: border-box;
+}
+
 .flex-pai{
     background-color: blue;
     height: 600px;
@@ -9,6 +13,7 @@
     justify-content: center;
     align-items: center;
     align-content:flex-start;
+    
 }
 
 .flex-pai > div {
@@ -17,4 +22,5 @@
     margin: 5px;
     padding: 30px;
     text-align: center;
+    flex-grow: 1;
 }
