@@ -12,8 +12,8 @@
 
         .conteiner{
             display: grid;
-            grid-template-columns: auto auto;
-            grid-template-rows: 150px auto 50px;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
         }
 
         .item{
@@ -22,11 +22,19 @@
             border: 1px solid black;
             text-align: center;
         }
+
+        .it1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">CBF cursos 1</div>
+        <div class="item it1">CBF cursos 1</div>
         <div class="item">CBF cursos 2</div>
         <div class="item">CBF cursos 3</div>
         <div class="item">CBF cursos 4</div>
